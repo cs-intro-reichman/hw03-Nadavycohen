@@ -5,7 +5,7 @@ public class Calendar {
 	static int year = 1900;
 	static int dayOfWeek = 2;   
 	static int nDaysInMonth = 31;
-	
+
 	public static void main(String asdf[]) {
 		int yearIn = Integer.parseInt(asdf[0]);
 	 	while (year <= yearIn) {
