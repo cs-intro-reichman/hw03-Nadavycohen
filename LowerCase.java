@@ -4,7 +4,7 @@ public class LowerCase {
         System.out.println(lowerCase(str));
     }
 
-  
+
     public static String lowerCase(String str) {
        String low = "";
        for (int i = 0; i< str.length(); i++){ 
