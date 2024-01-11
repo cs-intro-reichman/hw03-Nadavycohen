@@ -3,7 +3,7 @@ public class UniqueChars {
          String str = args[0];
          System.out.println(uniqueChars(str));
      }
- 
+
      public static String uniqueChars(String s) 
      {
         String uniq= "";
