@@ -4,20 +4,20 @@ public class LowerCase {
         System.out.println(lowerCase(str));
     }
 
-
-    public static String lowerCase(String s) {
-        String low = "";
-		for (int i = 0; i < s.length(); i++) {
-			char letter = s.charAt(i);
-			if ((letter >= 'A') && (letter <= 'Z')){
-				low = low + (char)(s.charAt(i) + 32);
-			} else 
-            { 
-				low = low + s.charAt(i);
-			}
-		}
-
+  
+    public static String lowerCase(String str) {
+       String low = "";
+       for (int i = 0; i< str.length(); i++){ 
+        char letter ='a';
+        int charIndex = str.charAt(i);
+        if ('A'<charIndex && charIndex<'Z')
+        letter = (char)(charIndex + 32);
+        else 
+        letter = (char)(charIndex);
+        low+=letter;
+        
+       }
         return low;
     }
-
-}
+} 
+    
